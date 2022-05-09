@@ -1,3 +1,5 @@
+<h1 align="center"> 본 블로그는 Hydejack Starter Kit으로 작성되었습니다.  </h1>
+
 # Hydejack Starter Kit
 
 A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
