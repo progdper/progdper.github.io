@@ -58,7 +58,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
 //제작일
 var link = document.createElement('meta'); 
 link.setAttribute('name', 'Date');
-link.content = "2022년 11월 21일";
+link.content = "2023년 02월 15일";
 document.getElementsByTagName('head')[0].appendChild(link);
 
 //홈페이지 주제
@@ -134,7 +134,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
 //제작년월일
 var link = document.createElement('meta'); 
 link.setAttribute('http-equiv', 'Build');
-link.content = "2022년 11월 21일";
+link.content = "2023년 02월 15일";
 document.getElementsByTagName('head')[0].appendChild(link);
 
 //최종 수정일
