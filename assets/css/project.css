@@ -1,0 +1,42 @@
+html{
+    
+    /* Prevent font scaling in landscape */
+    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+    -moz-text-size-adjust: none; /*Firefox*/
+    -ms-text-size-adjust: none; /*Ie*/
+    -o-text-size-adjust: none; /*old versions of Opera*/
+  
+    /* 바닥글(footer)이 화면 하단에 위치하기 위한 것 flexbox - html body main header, footer */
+    height: 100%;
+    
+  }
+  
+  
+  body {
+  
+    /* 바닥글(footer)이 화면 하단에 위치하기 위한 것 flexbox - html body main header, footer */
+    height: 100%;
+    min-height: 100vh;    
+    /* 모바일용 - 부드러운 스크롤 적용 */
+    -webkit-overflow-scrolling: touch;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* y(세로) 스크롤이 없을 경우 그 범위만큼 옆으로 이동함을 방지를 위해 auto 사용 안 함, header 가로 움직임 방지 */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+  }
+  
+  main {
+    /* 바닥글(footer)이 화면 하단에 위치하기 위한 것 flexbox - html body main header, footer */
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+  
+  header,
+  footer {
+    /* 바닥글(footer)이 화면 하단에 위치하기 위한 것 flexbox - html body main header, footer */
+    flex: none;
+  }
+  
