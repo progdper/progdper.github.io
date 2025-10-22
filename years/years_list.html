@@ -1,1284 +1,865 @@
 <!DOCTYPE html>
 <html lang="kr">
-  <head>
-    <!-- 공통 meta 관련 내용 -->
-    <script src="../assets/js/common_meta.js"></script>
 
-    <title>웹 개발자 최재훈 - 월별업무 내역</title>
+<head>
+  <!-- 공통 meta 관련 내용 -->
+  <script src="../assets/js/common_meta.js"></script>
 
-    <!-- Favicons -->
-    <link href="../assets/img/favicon.png" rel="icon" />
-    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <title>웹 개발자 최재훈 - 월별업무 내역</title>
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
-      rel="stylesheet"
-    />
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon" />
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="../assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../assets/vendor/boxicons/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../assets/vendor/swiper/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
+    rel="stylesheet" />
 
-    <!-- Template Main CSS File -->
-    <link href="../assets/css/style.css" rel="stylesheet" />
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    <!-- 캐노니컬 태그(SEO 최적화) / 데스크탑과 모바일 페이지 구분될 경우 추가 설정 필요 -->
-    <link
-      rel="canonical"
-      href="https://progdper.github.io/years/years_list.html"
-    />
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet" />
 
-    <!-- footer 하단 -->
-    <link href="../../assets/css/project.css" rel="stylesheet" />
+  <!-- 캐노니컬 태그(SEO 최적화) / 데스크탑과 모바일 페이지 구분될 경우 추가 설정 필요 -->
+  <link rel="canonical" href="https://progdper.github.io/years/years_list.html" />
 
-    <!-- =======================================================
+  <!-- footer 하단 -->
+  <link href="../../assets/css/project.css" rel="stylesheet" />
+
+  <!-- =======================================================
   * Template Name: Lonely - v4.10.0
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  </head>
+</head>
 
-  <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center">
-      <div class="container d-flex align-items-center justify-content-between">
-        <div class="logo">
-          <h1><a href="/index.html">Progdper</a></h1>
-        </div>
-
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li>
-              <a class="nav-link scrollto active" href="/index.html">Home</a>
-            </li>
-            <li class="dropdown">
-              <a><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="/index.html#portfolio">Portfolio (main)</a></li>
-                <li>
-                  <a href="/years/years_list.html">Portfolio (monthly)</a>
-                </li>
-                <li>
-                  <a href="/project/project_list.html">Portfolio (project)</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="/index.html#contact"
-                >Contact</a
-              >
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <h1><a href="/index.html">Progdper</a></h1>
       </div>
-    </header>
-    <!-- End Header -->
 
-    <main id="main">
-      <!-- ======= Breadcrumbs Section ======= -->
-      <section class="breadcrumbs">
-        <div class="container">
-          <div class="d-flex justify-content-between align-items-center">
-            <h2>years list</h2>
-            <ol>
-              <li><a href="/">Home</a></li>
-              <li>월별업무 내역</li>
-            </ol>
-          </div>
-        </div>
-      </section>
-      <!-- End Breadcrumbs Section -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li>
+            <a class="nav-link scrollto active" href="/index.html">Home</a>
+          </li>
+          <li class="dropdown">
+            <a><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/index.html#portfolio">Portfolio (main)</a></li>
+              <li>
+                <a href="/years/years_list.html">Portfolio (monthly)</a>
+              </li>
+              <li>
+                <a href="/project/project_list.html">Portfolio (project)</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="/index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+    </div>
+  </header>
+  <!-- End Header -->
 
-      <section id="portfolio" class="portfolio section-bg">
-        <div class="container">
-          <div class="monthly__wrap">
-            <div class="row">
-              <div class="col-lg-12 d-flex justify-content-center">
-                <ul id="portfolio-flters">
-                  <li>2025년</li>
-                </ul>
-              </div>
-            </div>
-            <div class="row portfolio-container">
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2025/2508.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>UECO 프론트 및 백엔드</h4>
-                    <p>25.08</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2025/2508.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="25.08 / UECO 프론트 및 백엔드 "
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2025/2507.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>25.08 / UECO 프론트 및 백엔드 </p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2025/2507.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>UECO 프론트 및 백엔드</h4>
-                    <p>25.07</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2025/2507.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="25.07 / UECO 프론트 및 백엔드 "
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2025/2507.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>25.07 / UECO 프론트 및 백엔드 </p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2025/2506.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>프론트엔드 및 백엔드 개발</h4>
-                    <p>25.06</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2025/2506.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="25.06 / 프론트엔드 및 백엔드 개발"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2025/2505.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>25.06 / 프론트엔드 및 백엔드 개발</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2025/2505.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>고객사 요구사항 검토 후 퍼블리싱</h4>
-                    <p>25.05</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2025/2505.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="25.05 / 고객사 요구사항 검토 후 퍼블리싱"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2025/2505.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>25.05 / 고객사 요구사항 검토 후 퍼블리싱</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2025/2504.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>고객사 요구사항 검토와 React 퍼블리싱</h4>
-                    <p>25.04</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2025/2504.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="25.04 / 고객사 요구사항 검토와 React 퍼블리싱"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                  <p>25.04 / 고객사 요구사항 검토와 React 퍼블리싱</p>
-                </div>
-              </div>
-
-              
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2025/2503.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>외주 개발 계획 검토 및 작성</h4>
-                    <p>25.03</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2025/2503.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="25.03 / 외주 개발 계획 검토 및 작성"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                  <p>25.03 / 외주 개발 계획 검토 및 작성</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2025/2502.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>현대중공업 기술교육원 사이트 Vue3 개발</h4>
-                    <p>25.02</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2025/2502.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="25.02 /  현대중공업 기술교육원 사이트 Vue3 개발"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2024/2412.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>25.02 / 현대중공업 기술교육원 사이트 Vue3 개발</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2025/2501.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>현대중공업 기술교육원 사이트 Vue3 개발</h4>
-                    <p>25.01</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2025/2501.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="25.01 /  현대중공업 기술교육원 사이트 Vue3 개발"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2024/2412.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>25.01 / 현대중공업 기술교육원 사이트 Vue3 개발</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="monthly__wrap">
-            <div class="row">
-              <div class="col-lg-12 d-flex justify-content-center">
-                <ul id="portfolio-flters">
-                  <li>2024년</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="row portfolio-container">
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2412.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>현대중공업 기술교육원 사이트 Vue3 개발</h4>
-                    <p>24.12</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2412.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.12 /  현대중공업 기술교육원 사이트 Vue3 개발"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2024/2412.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>24.12 / 현대중공업 기술교육원 사이트 Vue3 개발</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2411.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>NextJs 관련 강의 TypeScript 적용 및 응용</h4>
-                    <p>23.11</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2411.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.11 / NextJs 관련 강의 TypeScript 적용 및 응용"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                  <p>24.11 / NextJs 관련 강의 TypeScript 적용 및 응용</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2410.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>피그마의 내용으로 NestJS 기초 작업</h4>
-                    <p>24.10</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2410.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.10 / 피그마의 내용으로 NestJS 기초 작업"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                  <p>24.10 / 피그마의 내용으로 NestJS 기초 작업</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2409.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Angular + NestJS 고도화 작업</h4>
-                    <p>24.09</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2409.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.09 / Angular + NestJS 고도화 작업"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                  <p>24.09 / Angular + NestJS 고도화 작업</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2408.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>기획 및 프론트엔드</h4>
-                    <p>24.08</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2408.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.08 / 기획 및 프론트엔드"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2024/2408.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>24.08 / 기획 및 프론트엔드</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2407.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>외주 용역 React + NestJS + TypeORM, 퍼블리싱</h4>
-                    <p>24.07</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2407.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.01 / 외주 용역 React + NestJS + TypeORM, 퍼블리싱 "
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                  <p>24.07 / 외주 용역 React + NestJS + TypeORM, 퍼블리싱</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2406.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>외주 용역 React + NestJS + TypeORM</h4>
-                    <p>24.06</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2406.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.06 / 외주 용역 React + NestJS + TypeORM"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <!-- <a href="/project/2024/2406.html" title="More Details"><i class="bx bx-link"></i></a> -->
-                  </div>
-                  <p>24.06 /외주 용역 React + NestJS + TypeORM</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2405.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>React 기초 교육 및 정보처리기사 필기 준비</h4>
-                    <p>23.11</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2405.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.05 / React 기초 교육 및 정보처리기사 필기 준비"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                  <p>24.05 / React 기초 교육 및 정보처리기사 필기</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2404.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>
-                      Spring Security + JWT + JPA(H2) 백엔드(side project)
-                    </h4>
-                    <p>24.04</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2404.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.04 / Spring Security + JWT + JPA(H2) 백엔드(side project)"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2024/2404.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>
-                    24.04 / Spring Security + JWT + JPA(H2) 백엔드(side project)
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2403.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>office_word Generator with GPT 백엔드</h4>
-                    <p>24.03</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2403.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.03 / office_word Generator with GPT 백엔드"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2312.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>
-                    24.03 / Express + TypeScript + Apollo Server +
-                    (TypeGraphql-Prisma + MariaDB)
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2402.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>개인 side project 구현</h4>
-                    <p>24.02</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2402.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.02 / 개인 side project 구현"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                  <p>24.02 / spring Boot + MariaDB</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2024/2401.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>
-                      AiBICI code 개선 / Mockup 관련 DB 변경 및 PPT 양식 개선
-                    </h4>
-                    <p>24.01</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2024/2401.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="24.01 / AiBICI code 개선 / Mockup 관련 DB 변경 및 PPT 양식 개선"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a
-                      href="/project/2023/2303.html"
-                      title="AiBICI code 개선 More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                    <a
-                      href="/project/2023/2312.html"
-                      title="Mockup 관련 DB 변경 및 PPT 양식 개선 More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>
-                    24.01 / AiBICI code 개선 / Mockup 관련 DB 변경 및 PPT 양식
-                    개선
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="monthly__wrap">
-            <div class="row">
-              <div class="col-lg-12 d-flex justify-content-center">
-                <ul id="portfolio-flters">
-                  <li>2023년</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="row portfolio-container">
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2312.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Mockup Generator with GPT 백엔드</h4>
-                    <p>23.12</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2312.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.12 / Mockup Generator with GPT 백엔드"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2312.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>
-                    23.12 / Express + TypeScript + Apollo Server +
-                    (TypeGraphql-Prisma + MariaDB)
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2311_1.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>AiBICI EXPRESS 회원가입 및 서비스 생성, 외주 용역</h4>
-                    <p>23.11</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2311_1.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.11 / AiBICI EXPRESS 회원가입 및 서비스 생성, 외주 용역"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a
-                      href="/project/2023/2311_1.html"
-                      title="22.11 - 22.12 / More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>
-                    23.11 / Express + TypeScript + Apollo Server +
-                    (TypeGraphql-Prisma + MariaDB / TypeGoose + MongoDB )
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2310.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>
-                      Express + TypeScript + Apollo Server + TypeGraphql-Prisma
-                      분석
-                    </h4>
-                    <p>23.10</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2310.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.10 / Express + TypeScript + Apollo Server + TypeGraphql-Prisma 분석"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <!-- <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a> -->
-                  </div>
-                  <p>
-                    23.10 / Express + TypeScript + Apollo Server +
-                    TypeGraphql-Prisma
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2309.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>리팩터링 및 추가 개발</h4>
-                    <p>23.09</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2309.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.09 / 리팩터링 및 추가 개발"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2303.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>23.09 / express(Nodejs) + Prisma</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2308.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>AiBICI 첼린지 기능 추가</h4>
-                    <p>23.08</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2308.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.08 / AiBICI 첼린지 기능 추가"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2303.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>23.08 / express(Nodejs) + Prisma</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2307.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>
-                      AiBICI 게시판 및 계약서, 프롬프트 관련 해시태그 작업
-                    </h4>
-                    <p>23.07</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2307.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.07 / AiBICI 게시판 및 계약서, 프롬프트 관련 해시태그 작업"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2303.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>23.07 / express(Nodejs) + Prisma</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2306.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>AiBICI DB 구조 변경 및 이전 작업</h4>
-                    <p>23.06</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2306.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.06 / AiBICI DB 구조 변경 및 이전 작업"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2303.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>23.06 / express(Nodejs) + Prisma</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2305.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>AiBICI 보안 및 간편 로그인, 계약 관련 작업</h4>
-                    <p>23.05</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2305.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.05 / AiBICI 보안 강화 및 간편 로그인 지원, 계약서 작성 "
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2303.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>23.05 / express(Nodejs) + Prisma</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2304.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>AiBICI 전반적인 서비스 제공 관련 초안 작성</h4>
-                    <p>23.04</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2304.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.04 / AiBICI 전반적인 서비스 제공 관련 초안 작성"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2303.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>23.04 / express(Nodejs) + Prisma</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2303_1.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>express(Nodejs) 구조 파악</h4>
-                    <p>23.03</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2303_1.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.03 / express(Nodejs) 구조 파악"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2303.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>23.03 / express(Nodejs)</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2302_1.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Website 기획 및 마크업</h4>
-                    <p>23.02</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2302_1.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.02 / Website 기획 및 마크업"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2302.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>23.02 / 기획 및 마크업</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2023/2301.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>React + Django 클론코딩</h4>
-                    <p>23.01</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2023/2301.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="23.01 / React + Django 클론코딩"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2023/2303.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>23.01 / React + Django</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="monthly__wrap">
-            <div class="row">
-              <div class="col-lg-12 d-flex justify-content-center">
-                <ul id="portfolio-flters">
-                  <li>2022년</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="row portfolio-container">
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2022/2212.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Nodejs ejs 및 마크업</h4>
-                    <p>22.12</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2022/2212.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="22.12 / Nodejs ejs 및 마크업"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2022/2212.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>22.12 / Nodejs</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2022/2211.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Nodejs 백엔드</h4>
-                    <p>22.11</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2022/2211.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="22.11 / Nodejs 백엔드"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2022/2212.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>22.11 / Nodejs</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2022/2210.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Website 마크업</h4>
-                    <p>22.10</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2022/2210.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="22.10 / Website 마크업"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2022/2211.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>22.10 / 마크업</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2022/2209.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Website 기획</h4>
-                    <p>22.09</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2022/2209.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="22.09 / Website 기획"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2022/2211.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>22.09 / 기획</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2022/2208.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Website 마크업</h4>
-                    <p>22.08</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2022/2208.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="22.08 / Website 마크업"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2022/2209.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>22.08 / 마크업</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2022/2207.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>내부 서버 구축</h4>
-                    <p>22.07</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2022/2207.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="22.07 / 내부 서버 구축"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2022/2207.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>22.07 / 내부 서버 구축</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2022/2206.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>프로젝트 검토</h4>
-                    <p>22.06</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2022/2206.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="22.06 / 프로젝트 검토"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                  </div>
-                  <p>22.06 / 검토</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item">
-                <div class="portfolio-wrap">
-                  <img
-                    src="../assets/imgs/years/2022/2204.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>독서기록 서비스</h4>
-                    <p>22.04</p>
-                  </div>
-                  <div class="portfolio-links">
-                    <a
-                      href="../assets/imgs/years/2022/2204.png"
-                      data-gallery="portfolioGallery"
-                      class="portfolio-lightbox"
-                      title="22.04 / 프로젝트 검토"
-                      ><i class="bx bx-plus"></i
-                    ></a>
-                    <a href="/project/2022/2204.html" title="More Details"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                  <p>22.04 / 독서기록 서비스</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
+  <main id="main">
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
       <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Progdper</span></strong
-          >. All Rights Reserved
-        </div>
-        <div class="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>years list</h2>
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li>월별업무 내역</li>
+          </ol>
         </div>
       </div>
-    </footer>
-    <!-- End  Footer -->
+    </section>
+    <!-- End Breadcrumbs Section -->
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="monthly__wrap">
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li>2025년</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row portfolio-container">
 
-    <!-- Vendor JS Files -->
-    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="../assets/vendor/php-email-form/validate.js"></script>
+            <div class="col-lg-4 col-md-6 portfolio-item ">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2025/2509.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>기능 개선(전자정부프레임워크) 및 화면 개발</h4>
+                  <p>25.09</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2025/2509.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="25.09 / 기능 개선(전자정부프레임워크) 및 화면 개발"><i class="bx bx-plus"></i></a>
+                </div>
+                <p>25.09 / 기능 개선(전자정부프레임워크) 및 화면 개발 </p>
+              </div>
+            </div>
 
-    <!-- Template Main JS File -->
-    <script src="../assets/js/main.js"></script>
-  </body>
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2025/2508.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>UECO 프론트 및 백엔드</h4>
+                  <p>25.08</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2025/2508.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="25.08 / UECO 프론트 및 백엔드 "><i class="bx bx-plus"></i></a>
+                  <a href="/project/2025/2507.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>25.08 / UECO 프론트 및 백엔드 </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2025/2507.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>UECO 프론트 및 백엔드</h4>
+                  <p>25.07</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2025/2507.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="25.07 / UECO 프론트 및 백엔드 "><i class="bx bx-plus"></i></a>
+                  <a href="/project/2025/2507.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>25.07 / UECO 프론트 및 백엔드 </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2025/2506.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>프론트엔드 및 백엔드 개발</h4>
+                  <p>25.06</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2025/2506.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="25.06 / 프론트엔드 및 백엔드 개발"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2025/2505.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>25.06 / 프론트엔드 및 백엔드 개발</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2025/2505.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>고객사 요구사항 검토 후 퍼블리싱</h4>
+                  <p>25.05</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2025/2505.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="25.05 / 고객사 요구사항 검토 후 퍼블리싱"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2025/2505.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>25.05 / 고객사 요구사항 검토 후 퍼블리싱</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2025/2504.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>고객사 요구사항 검토와 React 퍼블리싱</h4>
+                  <p>25.04</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2025/2504.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="25.04 / 고객사 요구사항 검토와 React 퍼블리싱"><i class="bx bx-plus"></i></a>
+                </div>
+                <p>25.04 / 고객사 요구사항 검토와 React 퍼블리싱</p>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2025/2503.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>외주 개발 계획 검토 및 작성</h4>
+                  <p>25.03</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2025/2503.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="25.03 / 외주 개발 계획 검토 및 작성"><i class="bx bx-plus"></i></a>
+                </div>
+                <p>25.03 / 외주 개발 계획 검토 및 작성</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2025/2502.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>현대중공업 기술교육원 사이트 Vue3 개발</h4>
+                  <p>25.02</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2025/2502.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="25.02 /  현대중공업 기술교육원 사이트 Vue3 개발"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2024/2412.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>25.02 / 현대중공업 기술교육원 사이트 Vue3 개발</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2025/2501.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>현대중공업 기술교육원 사이트 Vue3 개발</h4>
+                  <p>25.01</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2025/2501.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="25.01 /  현대중공업 기술교육원 사이트 Vue3 개발"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2024/2412.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>25.01 / 현대중공업 기술교육원 사이트 Vue3 개발</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="monthly__wrap">
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li>2024년</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2412.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>현대중공업 기술교육원 사이트 Vue3 개발</h4>
+                  <p>24.12</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2412.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.12 /  현대중공업 기술교육원 사이트 Vue3 개발"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2024/2412.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>24.12 / 현대중공업 기술교육원 사이트 Vue3 개발</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2411.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>NextJs 관련 강의 TypeScript 적용 및 응용</h4>
+                  <p>23.11</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2411.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.11 / NextJs 관련 강의 TypeScript 적용 및 응용"><i
+                      class="bx bx-plus"></i></a>
+                </div>
+                <p>24.11 / NextJs 관련 강의 TypeScript 적용 및 응용</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2410.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>피그마의 내용으로 NestJS 기초 작업</h4>
+                  <p>24.10</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2410.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.10 / 피그마의 내용으로 NestJS 기초 작업"><i class="bx bx-plus"></i></a>
+                </div>
+                <p>24.10 / 피그마의 내용으로 NestJS 기초 작업</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2409.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Angular + NestJS 고도화 작업</h4>
+                  <p>24.09</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2409.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.09 / Angular + NestJS 고도화 작업"><i class="bx bx-plus"></i></a>
+                </div>
+                <p>24.09 / Angular + NestJS 고도화 작업</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2408.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>기획 및 프론트엔드</h4>
+                  <p>24.08</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2408.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.08 / 기획 및 프론트엔드"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2024/2408.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>24.08 / 기획 및 프론트엔드</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2407.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>외주 용역 React + NestJS + TypeORM, 퍼블리싱</h4>
+                  <p>24.07</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2407.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.01 / 외주 용역 React + NestJS + TypeORM, 퍼블리싱 "><i
+                      class="bx bx-plus"></i></a>
+                </div>
+                <p>24.07 / 외주 용역 React + NestJS + TypeORM, 퍼블리싱</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2406.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>외주 용역 React + NestJS + TypeORM</h4>
+                  <p>24.06</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2406.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.06 / 외주 용역 React + NestJS + TypeORM"><i
+                      class="bx bx-plus"></i></a>
+                  <!-- <a href="/project/2024/2406.html" title="More Details"><i class="bx bx-link"></i></a> -->
+                </div>
+                <p>24.06 /외주 용역 React + NestJS + TypeORM</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2405.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>React 기초 교육 및 정보처리기사 필기 준비</h4>
+                  <p>23.11</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2405.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.05 / React 기초 교육 및 정보처리기사 필기 준비"><i class="bx bx-plus"></i></a>
+                </div>
+                <p>24.05 / React 기초 교육 및 정보처리기사 필기</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2404.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>
+                    Spring Security + JWT + JPA(H2) 백엔드(side project)
+                  </h4>
+                  <p>24.04</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2404.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.04 / Spring Security + JWT + JPA(H2) 백엔드(side project)"><i
+                      class="bx bx-plus"></i></a>
+                  <a href="/project/2024/2404.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>
+                  24.04 / Spring Security + JWT + JPA(H2) 백엔드(side project)
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2403.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>office_word Generator with GPT 백엔드</h4>
+                  <p>24.03</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2403.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.03 / office_word Generator with GPT 백엔드"><i
+                      class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2312.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>
+                  24.03 / Express + TypeScript + Apollo Server +
+                  (TypeGraphql-Prisma + MariaDB)
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2402.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>개인 side project 구현</h4>
+                  <p>24.02</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2402.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.02 / 개인 side project 구현"><i class="bx bx-plus"></i></a>
+                </div>
+                <p>24.02 / spring Boot + MariaDB</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2024/2401.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>
+                    AiBICI code 개선 / Mockup 관련 DB 변경 및 PPT 양식 개선
+                  </h4>
+                  <p>24.01</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2024/2401.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="24.01 / AiBICI code 개선 / Mockup 관련 DB 변경 및 PPT 양식 개선"><i
+                      class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2303.html" title="AiBICI code 개선 More Details"><i class="bx bx-link"></i></a>
+                  <a href="/project/2023/2312.html" title="Mockup 관련 DB 변경 및 PPT 양식 개선 More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+                <p>
+                  24.01 / AiBICI code 개선 / Mockup 관련 DB 변경 및 PPT 양식
+                  개선
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="monthly__wrap">
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li>2023년</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2312.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Mockup Generator with GPT 백엔드</h4>
+                  <p>23.12</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2312.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.12 / Mockup Generator with GPT 백엔드"><i
+                      class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2312.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>
+                  23.12 / Express + TypeScript + Apollo Server +
+                  (TypeGraphql-Prisma + MariaDB)
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2311_1.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>AiBICI EXPRESS 회원가입 및 서비스 생성, 외주 용역</h4>
+                  <p>23.11</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2311_1.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.11 / AiBICI EXPRESS 회원가입 및 서비스 생성, 외주 용역"><i
+                      class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2311_1.html" title="22.11 - 22.12 / More Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+                <p>
+                  23.11 / Express + TypeScript + Apollo Server +
+                  (TypeGraphql-Prisma + MariaDB / TypeGoose + MongoDB )
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2310.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>
+                    Express + TypeScript + Apollo Server + TypeGraphql-Prisma
+                    분석
+                  </h4>
+                  <p>23.10</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2310.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="23.10 / Express + TypeScript + Apollo Server + TypeGraphql-Prisma 분석"><i
+                      class="bx bx-plus"></i></a>
+                  <!-- <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a> -->
+                </div>
+                <p>
+                  23.10 / Express + TypeScript + Apollo Server +
+                  TypeGraphql-Prisma
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2309.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>리팩터링 및 추가 개발</h4>
+                  <p>23.09</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2309.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.09 / 리팩터링 및 추가 개발"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>23.09 / express(Nodejs) + Prisma</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2308.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>AiBICI 첼린지 기능 추가</h4>
+                  <p>23.08</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2308.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.08 / AiBICI 첼린지 기능 추가"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>23.08 / express(Nodejs) + Prisma</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2307.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>
+                    AiBICI 게시판 및 계약서, 프롬프트 관련 해시태그 작업
+                  </h4>
+                  <p>23.07</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2307.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.07 / AiBICI 게시판 및 계약서, 프롬프트 관련 해시태그 작업"><i
+                      class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>23.07 / express(Nodejs) + Prisma</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2306.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>AiBICI DB 구조 변경 및 이전 작업</h4>
+                  <p>23.06</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2306.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.06 / AiBICI DB 구조 변경 및 이전 작업"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>23.06 / express(Nodejs) + Prisma</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2305.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>AiBICI 보안 및 간편 로그인, 계약 관련 작업</h4>
+                  <p>23.05</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2305.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.05 / AiBICI 보안 강화 및 간편 로그인 지원, 계약서 작성 "><i
+                      class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>23.05 / express(Nodejs) + Prisma</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2304.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>AiBICI 전반적인 서비스 제공 관련 초안 작성</h4>
+                  <p>23.04</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2304.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.04 / AiBICI 전반적인 서비스 제공 관련 초안 작성"><i
+                      class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>23.04 / express(Nodejs) + Prisma</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2303_1.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>express(Nodejs) 구조 파악</h4>
+                  <p>23.03</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2303_1.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.03 / express(Nodejs) 구조 파악"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>23.03 / express(Nodejs)</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2302_1.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Website 기획 및 마크업</h4>
+                  <p>23.02</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2302_1.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.02 / Website 기획 및 마크업"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2302.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>23.02 / 기획 및 마크업</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2023/2301.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>React + Django 클론코딩</h4>
+                  <p>23.01</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2023/2301.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="23.01 / React + Django 클론코딩"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2023/2303.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>23.01 / React + Django</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="monthly__wrap">
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li>2022년</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2022/2212.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Nodejs ejs 및 마크업</h4>
+                  <p>22.12</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2022/2212.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="22.12 / Nodejs ejs 및 마크업"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2022/2212.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>22.12 / Nodejs</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2022/2211.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Nodejs 백엔드</h4>
+                  <p>22.11</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2022/2211.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="22.11 / Nodejs 백엔드"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2022/2212.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>22.11 / Nodejs</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2022/2210.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Website 마크업</h4>
+                  <p>22.10</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2022/2210.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="22.10 / Website 마크업"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2022/2211.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>22.10 / 마크업</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2022/2209.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Website 기획</h4>
+                  <p>22.09</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2022/2209.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="22.09 / Website 기획"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2022/2211.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>22.09 / 기획</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2022/2208.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Website 마크업</h4>
+                  <p>22.08</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2022/2208.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="22.08 / Website 마크업"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2022/2209.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>22.08 / 마크업</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2022/2207.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>내부 서버 구축</h4>
+                  <p>22.07</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2022/2207.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="22.07 / 내부 서버 구축"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2022/2207.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>22.07 / 내부 서버 구축</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2022/2206.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>프로젝트 검토</h4>
+                  <p>22.06</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2022/2206.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="22.06 / 프로젝트 검토"><i class="bx bx-plus"></i></a>
+                </div>
+                <p>22.06 / 검토</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <div class="portfolio-wrap">
+                <img src="../assets/imgs/years/2022/2204.png" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>독서기록 서비스</h4>
+                  <p>22.04</p>
+                </div>
+                <div class="portfolio-links">
+                  <a href="../assets/imgs/years/2022/2204.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="22.04 / 프로젝트 검토"><i class="bx bx-plus"></i></a>
+                  <a href="/project/2022/2204.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+                <p>22.04 / 독서기록 서비스</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Progdper</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+</body>
+
 </html>
