@@ -1,4 +1,4 @@
-import { Project } from './types';
+import { Project, ProjectTask } from './types';
 
 export * from './types';
 
@@ -14,12 +14,12 @@ const allModules = import.meta.glob('./20*.ts', { eager: true });
 export const projectsData: Project[] = Object.values(allModules)
   .flatMap((module: any) => {
     const key = Object.keys(module).find(k => k.startsWith('projects'));
-    return key ? module[key] : [];
+    return (key ? module[key] : []) as Project[];
   })
-  .sort((a, b) => {
+  .sort((a: Project, b: Project) => {
     // 각 프로젝트의 tasks 중 가장 최신 month 추출
-    const aLastMonth = a.tasks.reduce((max, t) => (t.month > max ? t.month : max), '00.00');
-    const bLastMonth = b.tasks.reduce((max, t) => (t.month > max ? t.month : max), '00.00');
+    const aLastMonth = a.tasks.reduce((max: string, t: ProjectTask) => (t.month > max ? t.month : max), '00.00');
+    const bLastMonth = b.tasks.reduce((max: string, t: ProjectTask) => (t.month > max ? t.month : max), '00.00');
     return bLastMonth.localeCompare(aLastMonth);
   });
 
