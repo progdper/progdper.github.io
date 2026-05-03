@@ -1,0 +1,38 @@
+# 의존성 및 빌드 결과물
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# TanStack Router 캐시
+.tanstack/
+
+# 로그 파일
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 에디터 및 IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript 및 Lint 캐시
+*.tsbuildinfo
+.eslintcache
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 테스트 결과
+coverage/
