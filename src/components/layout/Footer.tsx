@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
 
         <div className="flex items-center gap-6">
           <a 
-            href="https://github.com/progdper" 
+            href="https://github.com/progdper/progdper.github.io" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="p-2 text-slate-500 hover:text-white transition-colors"
