@@ -133,7 +133,7 @@ export const resumeData: ResumeData = {
     },
     {
       period: '2001.03 - 2008.08',
-      school: '대학교',
+      school: '울산대학교',
       major: '경영학과',
       degree: '학사 졸업',
       description: '비즈니스 프로세스와 조직 운영의 기본 구조를 이해하며 실무 감각을 넓혔습니다.',
