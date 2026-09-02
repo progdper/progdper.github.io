@@ -55,7 +55,7 @@ export const projects2024: Project[] = [
   {
     id: 'gpt-project-2024',
     name: 'Mockup Generator with GPT',
-    category: '외주 개발',
+    category: '고객사 프로젝트',
     client: '마크인포',
     period: '2023. 12. ~ 2024. 03.',
     year: ['2023', '2024'],

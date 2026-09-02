@@ -4,7 +4,7 @@ export const projects2022: Project[] = [
   {
     id: 'nodejs-fullstack-2022',
     name: 'GIS태양광 관리 시스템 디자인 및 기능 개선',
-    category: '풀스택',
+    category: '고객사 프로젝트',
     client: '(주)엠지아이티',
     period: '2022. 11. ~ 2022. 12.',
     year: '2022',
